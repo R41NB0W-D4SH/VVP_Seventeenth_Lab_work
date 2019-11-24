@@ -20,7 +20,7 @@ int main()
 
 		for (i = 1; i < n; i++)
 		{
-			cout << "a[" << i << "] = ";
+			cout << "a[" << i << "] : ";
 			cin >> a[i];
 			if (cur_el != a[i])
 			{
@@ -56,7 +56,7 @@ int main()
 
 		for (i = 0; i < count; i++)
 		{
-			cout << "b[" << i << "] = " << b[i] << "        c[" << i << "] = " << c[i] << endl << endl;
+			cout << "b[" << i << "] : " << b[i] << "        c[" << i << "] : " << c[i] << endl << endl;
 		}
 	}
 	else
